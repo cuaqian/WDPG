@@ -1,0 +1,68 @@
+{
+  "scope": "Offline prescription library construction and online library-based prescription selection",
+  "online_agent_policy": {
+    "prescription_source": "reviewed_prescription_library",
+    "runtime_deepresearch": false,
+    "runtime_graph_retrieval_for_prescription": false,
+    "max_output_plans": 1
+  },
+  "corpus_indexing": {
+    "chunk_size_chars": 1500,
+    "chunk_overlap_chars": 150,
+    "sparse_retriever": "rank_bm25",
+    "sparse_top_k": 4,
+    "dense_embedding_model": "qwen3-vl-embedding-2B",
+    "dense_top_k": 4,
+    "vector_store": "Milvus",
+    "vector_index": "HNSW",
+    "vector_metric": "cosine",
+    "graph_store": "Neo4j",
+    "graph_top_k": 6,
+    "hybrid_output_top_k": 8
+  },
+  "hybrid_fusion": {
+    "method": "weighted rank fusion with deduplication",
+    "score_formula": "source_weight / (rank + 1)",
+    "weights": {
+      "term": 0.45,
+      "dense": 0.35,
+      "graph": 0.20
+    }
+  },
+  "source_priority": {
+    "guideline": 1.00,
+    "policy_standard_patent": 0.90,
+    "pesticide_registration": 0.85,
+    "ebook_or_professional_manual": 0.70,
+    "academic_paper": 0.60,
+    "default": 1.00
+  },
+  "reranking": {
+    "mode": "optional cross-encoder evidence reranking plus deterministic prescription ranking",
+    "reranker_model_when_enabled": "bge-reranker-v2-m3",
+    "reranker_top_n": 8,
+    "prescription_ranking_fields": [
+      "explicit_dosage",
+      "explicit_phi",
+      "application_method",
+      "source_type",
+      "cross_source_support",
+      "evidence_count",
+      "confidence",
+      "preferred_rank"
+    ]
+  },
+  "deepresearch": {
+    "planner_mode": "heuristic_or_auto",
+    "per_tool_top_k": 8,
+    "max_rounds": 2,
+    "graph_top_k_cap": 6,
+    "trigger_on_field_conflict": true,
+    "trigger_on_missing_dosage_or_phi": true,
+    "stop_conditions": [
+      "recommended pesticide, dosage, PHI, application method, and provenance are complete",
+      "candidate evidence remains conflicting after the maximum allowed round",
+      "no new reliable evidence is retrieved"
+    ]
+  }
+}
