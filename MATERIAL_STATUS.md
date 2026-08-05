@@ -13,6 +13,8 @@
 | Metric recomputation | Provided | `mvp_code/recompute_diagnosis_statistics.py` |
 | Knowledge graph schema | Provided | `kg_schema/schema.md` |
 | Knowledge graph Cypher templates | Provided | `kg_schema/cypher_templates.cypher` |
+| Knowledge extraction prompt template | Provided | `kg_schema/extraction_prompt_template.md` |
+| Knowledge normalization rules | Provided | `kg_schema/normalization_rules.md` |
 | Knowledge graph reconstruction protocol | Provided | `protocols/knowledge_graph_reconstruction_protocol.md` |
 | Full Neo4j database dump | Not public in this package | Use schema, Cypher templates, reconstruction protocol, scale queries, and optional four-category subgraph export instead |
 | Raw image files | Conditional sharing | Use sample IDs, labels, split metadata, source metadata, and hash records when redistribution is restricted |

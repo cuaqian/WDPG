@@ -11,7 +11,7 @@ It contains the minimum code and saved-result materials needed to inspect the WD
 - Reviewed prescription-library summary, field schema, and four representative examples.
 - Direct/base prescription reference count summary.
 - Retrieval configuration and environment template without credentials.
-- Knowledge graph schema and Cypher templates.
+- Knowledge graph schema, extraction prompt template, normalization rules, and Cypher templates.
 - MVP single-image entry script.
 - Saved prediction files and metric files.
 - Metric recomputation script.

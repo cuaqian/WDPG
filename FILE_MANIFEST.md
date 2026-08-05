@@ -43,6 +43,8 @@
 | `protocols/*.md` | Evaluation, data split, expert review, DSPy, and KG reconstruction protocols. |
 | `kg_schema/schema.md` | Knowledge graph node, relation, and field schema. |
 | `kg_schema/cypher_templates.cypher` | Main Cypher templates for graph scale checks and treatment relation inspection. |
+| `kg_schema/extraction_prompt_template.md` | Structured extraction prompt template for graph-ready knowledge units. |
+| `kg_schema/normalization_rules.md` | Entity, dosage, PHI, provenance, and deduplication rules. |
 
 ## MVP code
 
