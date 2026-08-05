@@ -1,13 +1,5 @@
 # WDPG-AGENT review-facing MVP
 
-## Access & Scope Notice
-
-This repository is currently **private**. Access can be granted upon request for editorial and peer-review verification.
-
-This MVP package includes the final diagnostic prompt, prompt-search summary, selection records, BASE/BEST metric files, configuration templates, and a minimal evaluation script. It does **not** include API keys, private deployment configurations, the full production codebase, the complete Neo4j database, restricted raw data, or the full prescription-library assets. The fully maintained engineering repository will be made public after the paper is accepted or published, following removal of credentials, private deployment settings, and restricted data.
-
----
-
 This repository snapshot is intended for editor and reviewer inspection during manuscript revision.
 
 It contains the minimum code and saved-result materials needed to inspect the WDPG-AGENT workflow and recompute the main saved-result metrics. It is designed for an author-controlled GitHub repository rather than journal Supplementary Materials, because code and run guides may need versioned updates during review.
