@@ -6,6 +6,8 @@
 | DSPy prompt search records | Provided as summary | `prompts/search.summary.json`; `prompts/closed6_selection.summary.json`; `prompts/*.metrics.json`; full candidate prompts are withheld until the maintained repository release |
 | Final prescription library | Summary and examples provided | `prescription_library/summary.json`; 35-entry count summary and four representative examples. A controlled item-level copy can be supplied if the editor requests it |
 | Direct/base prescription reference | Summary provided | `prescription_library/summary.json`; 24-entry direct/base count summary |
+| Expert review protocol | Provided | `prescription_library/expert_review_protocol.md`; de-identified protocol |
+| Expert review summary | Provided | `prescription_library/expert_review_summary.json`; de-identified count summary and disagreement-resolution rule |
 | Candidate prescription records | Not included in the review MVP | Intermediate construction logs are withheld; count summaries and representative examples are provided |
 | Retrieval configuration | Provided | `configs/retrieval_config.json` |
 | Agent MVP run configuration | Provided | `configs/env.template.sh`; `mvp_code/run_wdpd_full_agent.sh`; `mvp_code/README.md` |

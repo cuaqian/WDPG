@@ -26,6 +26,8 @@
 |---|---|
 | `prescription_library/summary.json` | Count summary, interpretation, and four representative examples. |
 | `prescription_library/README.md` | Field definitions and use boundary. |
+| `prescription_library/expert_review_protocol.md` | De-identified expert review protocol. |
+| `prescription_library/expert_review_summary.json` | De-identified review summary and disagreement-resolution rule. |
 
 ## Results
 

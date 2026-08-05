@@ -33,4 +33,9 @@ Plant protection experts review the prescription entries before evaluation. Revi
 
 The online Prescription agent reads the reviewed library after diagnosis and outputs one preferred plan by default.
 
+This folder also provides a de-identified expert review protocol and summary:
+
+- `expert_review_protocol.md`
+- `expert_review_summary.json`
+
 The complete machine-readable prescription library is not included in this public MVP package. If the editor requires item-level inspection during review, a controlled review copy can be provided separately.

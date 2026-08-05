@@ -9,6 +9,7 @@ It contains the minimum code and saved-result materials needed to inspect the WD
 - Final optimized visual diagnosis prompt.
 - Prompt search summary, selection record, and BASE/BEST metric files.
 - Reviewed prescription-library summary, field schema, and four representative examples.
+- De-identified expert review protocol and summary for the prescription library.
 - Direct/base prescription reference count summary.
 - Retrieval configuration and environment template without credentials.
 - Knowledge graph schema, extraction prompt template, normalization rules, and Cypher templates.

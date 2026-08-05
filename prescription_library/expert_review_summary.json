@@ -1,0 +1,41 @@
+{
+  "scope": "De-identified expert review summary for the reviewed prescription library",
+  "review_target": "Candidate prescription entries for four actionable wheat pest and disease categories",
+  "review_fields": [
+    "control target",
+    "pesticide or formulation",
+    "active ingredient",
+    "dosage",
+    "application method",
+    "PHI",
+    "growth-stage or timing suitability",
+    "safety precautions",
+    "source provenance"
+  ],
+  "decision_labels": [
+    "pass",
+    "revise",
+    "fail"
+  ],
+  "final_reviewed_entries": {
+    "total": 35,
+    "by_threat": {
+      "小麦条锈病": 7,
+      "小麦白粉病": 9,
+      "小麦蚜虫": 10,
+      "小麦赤霉病": 9
+    }
+  },
+  "direct_base_reference": {
+    "total": 24,
+    "by_threat": {
+      "小麦条锈病": 6,
+      "小麦白粉病": 6,
+      "小麦蚜虫": 6,
+      "小麦赤霉病": 6
+    }
+  },
+  "disagreement_resolution": "Entries with disagreement are discussed by at least two experts. If agreement cannot be reached, the conservative decision is used and the entry is not accepted unless target, dosage, PHI, timing, and source support are clear.",
+  "public_release_boundary": "This summary is de-identified and does not include reviewer names, signatures, complete item-level logs, or the complete machine-readable prescription library. A controlled item-level review copy can be provided if the editor requires inspection during peer review."
+}
+
