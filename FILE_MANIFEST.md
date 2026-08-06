@@ -36,6 +36,14 @@
 | `results/metrics/*.json` | Main saved metric files. |
 | `results/predictions/*.jsonl` | Per-sample saved predictions used for metric recomputation. |
 
+## Dataset metadata
+
+| File | Purpose |
+|---|---|
+| `dataset_metadata/class_source_split_summary.csv` | Class-wise source composition and train/validation/test split counts. |
+| `dataset_metadata/benchmark_labels_test.csv` | Sample-level labels for the 601-image held-out test set. |
+| `dataset_metadata/README.md` | Dataset metadata boundary and raw-image sharing note. |
+
 ## Protocols and configuration
 
 | File | Purpose |

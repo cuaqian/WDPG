@@ -11,6 +11,8 @@
 | Candidate prescription records | Not included in the review MVP | Intermediate construction logs are withheld; count summaries and representative examples are provided |
 | Retrieval configuration | Provided | `configs/retrieval_config.json` |
 | Agent MVP run configuration | Provided | `configs/env.template.sh`; `mvp_code/run_wdpd_full_agent.sh`; `mvp_code/README.md` |
+| Dataset split metadata | Provided | `dataset_metadata/class_source_split_summary.csv`; `dataset_metadata/benchmark_labels_test.csv`; `protocols/data_split_and_leakage_protocol.md` |
+| Benchmark labels | Provided | `dataset_metadata/benchmark_labels_test.csv`; labels are also retained in `results/predictions/*.jsonl` |
 | Saved predictions and metrics | Provided | `results/predictions/*.jsonl`; `results/metrics/*.json` |
 | Metric recomputation | Provided | `mvp_code/recompute_diagnosis_statistics.py` |
 | Knowledge graph schema | Provided | `kg_schema/schema.md` |

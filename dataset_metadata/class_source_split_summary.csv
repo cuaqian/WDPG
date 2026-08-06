@@ -1,0 +1,8 @@
+﻿class,field_images,online_images,training_set,validation_set,test_set,total
+Healthy,235,0,70,70,95,235
+Wheat stripe rust,0,269,80,80,109,269
+Wheat powdery mildew,0,259,77,77,105,259
+Wheat aphid,0,257,77,77,103,257
+Wheat Fusarium head blight,234,0,70,70,94,234
+Other,0,235,70,70,95,235
+Total,469,1020,444,444,601,1489

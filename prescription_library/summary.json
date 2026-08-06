@@ -1,78 +1,78 @@
 {
-  "scope": "Reviewed prescription library for four actionable wheat pest and disease categories",
+  "scope": "Reviewed prescription set for four actionable wheat pest and disease categories",
   "final_online_library": {
     "file": "deep_all.json",
     "retrieval_setting": "DeepResearch-enhanced evidence completion",
     "usable_prescription_entries": 35,
     "entries_by_threat": {
-      "小麦条锈病": 7,
-      "小麦白粉病": 9,
-      "小麦蚜虫": 10,
-      "小麦赤霉病": 9
+      "wheat_stripe_rust": 7,
+      "wheat_powdery_mildew": 9,
+      "wheat_aphid": 10,
+      "wheat_fusarium_head_blight": 9
     },
-    "use_in_online_agent": "The online Prescription agent reads this reviewed library after diagnosis and outputs one preferred plan."
+    "use_in_online_agent": "The online Prescription agent reads this reviewed set after diagnosis and outputs one preferred plan."
   },
   "direct_base_reference": {
     "file": "direct_control_library.json",
     "retrieval_setting": "direct/base retrieval without DeepResearch evidence completion",
     "reviewed_entries": 24,
     "entries_by_threat": {
-      "小麦条锈病": 6,
-      "小麦白粉病": 6,
-      "小麦蚜虫": 6,
-      "小麦赤霉病": 6
+      "wheat_stripe_rust": 6,
+      "wheat_powdery_mildew": 6,
+      "wheat_aphid": 6,
+      "wheat_fusarium_head_blight": 6
     }
   },
   "candidate_records": {
     "included_in_review_mvp": false,
-    "reason": "Intermediate construction logs are withheld from the lean review package. The final reviewed library and direct/base reference counts are provided."
+    "reason": "Intermediate construction logs are withheld from the lean review package. Count summaries and representative examples are provided."
   },
   "representative_examples": [
     {
-      "threat": "小麦条锈病",
+      "threat": "wheat_stripe_rust",
       "entry_count_for_this_threat": 7,
-      "recommended_chemical": "丙硫菌唑·戊唑醇 40%悬浮剂",
-      "dosage_and_method": "40-60毫升/亩，兑水40-50公斤/亩，茎叶喷雾；病害发生前或发病初期施药",
+      "recommended_chemical": "prothioconazole-tebuconazole 40% suspension concentrate",
+      "dosage_and_method": "40-60 mL/mu, diluted with 40-50 kg water per mu, stem-and-leaf spray before disease occurrence or at the early disease stage",
       "phi_days": 30,
       "max_applications_per_season": 2,
       "source_type": "official_guidance",
-      "source_title": "2019年小麦重大病虫害全程综合防控技术方案",
+      "source_title": "2019 Integrated Control Technical Plan for Major Wheat Pests and Diseases",
       "source_date": "2019-03-15",
       "source_url": "https://www.moa.gov.cn/gk/nszd_1/2019/201903/t20190315_6176655.htm"
     },
     {
-      "threat": "小麦白粉病",
+      "threat": "wheat_powdery_mildew",
       "entry_count_for_this_threat": 9,
-      "recommended_chemical": "烯唑醇 12.5%可湿性粉剂",
-      "dosage_and_method": "32-64克/亩，喷雾；发病前或最迟发病初期使用",
+      "recommended_chemical": "triadimefon 12.5% wettable powder",
+      "dosage_and_method": "32-64 g/mu, spray before disease occurrence or at the early disease stage",
       "phi_days": 21,
       "max_applications_per_season": 2,
       "source_type": "official_guidance",
-      "source_title": "2025年粮食作物重大病虫害防控技术方案",
+      "source_title": "2025 Technical Plan for Control of Major Grain Crop Pests and Diseases",
       "source_date": "2025-02-28",
       "source_url": "https://www.moa.gov.cn/xw/zxfb/202502/t20250228_6470753.htm"
     },
     {
-      "threat": "小麦蚜虫",
+      "threat": "wheat_aphid",
       "entry_count_for_this_threat": 10,
-      "recommended_chemical": "噻虫嗪 25%水分散粒剂",
-      "dosage_and_method": "6-10克/亩，喷雾；小麦蚜虫始发盛期施药，兑水40-60公斤/亩",
+      "recommended_chemical": "pymetrozine 25% water-dispersible granule",
+      "dosage_and_method": "6-10 g/mu, spray at the early peak stage of wheat aphid occurrence, diluted with 40-60 kg water per mu",
       "phi_days": 14,
       "max_applications_per_season": 2,
       "source_type": "official_guidance",
-      "source_title": "2025年粮食作物重大病虫害防控技术方案",
+      "source_title": "2025 Technical Plan for Control of Major Grain Crop Pests and Diseases",
       "source_date": "2025-02-28",
       "source_url": "https://www.moa.gov.cn/xw/zxfb/202502/t20250228_6470753.htm"
     },
     {
-      "threat": "小麦赤霉病",
+      "threat": "wheat_fusarium_head_blight",
       "entry_count_for_this_threat": 9,
-      "recommended_chemical": "丙硫菌唑·戊唑醇 40%悬浮剂",
-      "dosage_and_method": "40-60毫升/亩，兑水40-50公斤/亩，茎叶喷雾；小麦扬花初期、赤霉病发病前施药",
+      "recommended_chemical": "prothioconazole-tebuconazole 40% suspension concentrate",
+      "dosage_and_method": "40-60 mL/mu, diluted with 40-50 kg water per mu, stem-and-leaf spray at early flowering or before Fusarium head blight occurrence",
       "phi_days": 30,
       "max_applications_per_season": 2,
       "source_type": "official_guidance",
-      "source_title": "2025年粮食作物重大病虫害防控技术方案",
+      "source_title": "2025 Technical Plan for Control of Major Grain Crop Pests and Diseases",
       "source_date": "2025-02-28",
       "source_url": "https://www.moa.gov.cn/xw/zxfb/202502/t20250228_6470753.htm"
     }

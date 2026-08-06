@@ -15,6 +15,7 @@ It contains the minimum code and saved-result materials needed to inspect the WD
 - Knowledge graph schema, extraction prompt template, normalization rules, and Cypher templates.
 - MVP single-image entry script.
 - Saved prediction files and metric files.
+- Dataset split metadata and 601-sample held-out test-set benchmark labels.
 - Metric recomputation script.
 - Data split, evaluation, expert review, and knowledge graph reconstruction protocols.
 

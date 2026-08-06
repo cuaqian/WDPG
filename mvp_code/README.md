@@ -34,3 +34,10 @@ python mvp_code/recompute_diagnosis_statistics.py \
 ```
 
 This script provides an auditable check of diagnosis-level metrics and bootstrap confidence intervals. Add `--compare other_predictions.jsonl` only when the two files use the same sample IDs. Prescription metrics require the prescription adjudication script and reviewed prescription boundary; those files should be included if the manuscript reports expert-adjudicated prescription accuracy.
+
+The held-out test-set labels and split metadata are provided in:
+
+- `dataset_metadata/benchmark_labels_test.csv`
+- `dataset_metadata/class_source_split_summary.csv`
+
+The saved full-process metric files are provided in `results/metrics/*.json`. The lean MVP package includes the diagnosis-level recomputation script and saved full-process metric files. Item-level prescription adjudication code and the complete machine-readable prescription boundary are not included in this lean public package; they can be provided as controlled review materials if required by the editor.
