@@ -20,22 +20,21 @@
   "final_reviewed_entries": {
     "total": 35,
     "by_threat": {
-      "小麦条锈病": 7,
-      "小麦白粉病": 9,
-      "小麦蚜虫": 10,
-      "小麦赤霉病": 9
+      "wheat_stripe_rust": 7,
+      "wheat_powdery_mildew": 9,
+      "wheat_aphid": 10,
+      "wheat_fusarium_head_blight": 9
     }
   },
   "direct_base_reference": {
     "total": 24,
     "by_threat": {
-      "小麦条锈病": 6,
-      "小麦白粉病": 6,
-      "小麦蚜虫": 6,
-      "小麦赤霉病": 6
+      "wheat_stripe_rust": 6,
+      "wheat_powdery_mildew": 6,
+      "wheat_aphid": 6,
+      "wheat_fusarium_head_blight": 6
     }
   },
-  "disagreement_resolution": "Entries with disagreement are discussed by at least two experts. If agreement cannot be reached, the conservative decision is used and the entry is not accepted unless target, dosage, PHI, timing, and source support are clear.",
+  "disagreement_resolution": "Entries with disagreement were rechecked by at least two experts against the original source and disputed fields. If agreement could not be reached, the conservative decision was used and the entry was not accepted unless target, dosage, PHI, timing, and source support were clear.",
   "public_release_boundary": "This summary is de-identified and does not include reviewer names, signatures, complete item-level logs, or the complete machine-readable prescription library. A controlled item-level review copy can be provided if the editor requires inspection during peer review."
 }
-

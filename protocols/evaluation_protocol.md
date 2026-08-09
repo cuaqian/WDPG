@@ -1,8 +1,8 @@
-# Evaluation protocol
+# Evaluation Protocol
 
-## Diagnosis evaluation
+## Diagnosis Evaluation
 
-Diagnosis is evaluated on the six-class test set. Metrics include Accuracy, macro Precision, macro Recall, and macro F1.
+Diagnosis is evaluated on the six-class held-out test set. Metrics include Accuracy, macro Precision, macro Recall, and macro F1.
 
 The six labels are:
 
@@ -13,34 +13,21 @@ The six labels are:
 - wheat Fusarium head blight
 - other
 
-## Full-process evaluation
+## Full-Process Evaluation
 
-The 601-sample held-out test set is used for end-to-end evaluation. Healthy and other samples are non-actionable cases. For those samples, an empty prescription is counted as the correct safe output. The same rule is applied to all compared models.
+The held-out test set is used for end-to-end evaluation. Healthy and other samples are treated as non-actionable cases. For those samples, returning an empty prescription is counted as the correct safe output. The same rule is applied to all evaluated models.
 
-## Actionable prescription evaluation
+## Prescription Evaluation
 
-The actionable prescription subset contains only the four treatable pest and disease categories. It is used to evaluate pesticide, dosage, PHI, and full prescription correctness without the healthy and other cases.
+Prescription outputs are evaluated against the reviewed prescription boundary. The field-level checks include:
 
-## Prescription adjudication
+- whether the recommended pesticide is compatible with the diagnosed target;
+- whether the dosage is executable and consistent with the reviewed prescription boundary;
+- whether PHI information is complete and consistent;
+- whether the full prescription satisfies pesticide, dosage, PHI, target, and safety-boundary requirements at the same time.
 
-Model outputs are first checked against the reviewed prescription boundary. Outputs outside the boundary can be submitted to expert adjudication. Expert review checks pesticide-target compatibility, dosage, PHI, application timing, growth-stage suitability, and source support.
+Outputs outside the reviewed prescription boundary require expert adjudication before being counted as correct.
 
-The final manuscript should report one clearly named prescription metric. Recommended name:
+## Scope
 
-```text
-expert-adjudicated full prescription accuracy
-```
-
-If automatic strict-boundary metrics are also shown, they should be labeled as strict boundary metrics and placed in a supplementary table.
-
-## Statistical analysis
-
-Saved prediction files can be used to compute:
-
-- bootstrap 95% confidence intervals
-- McNemar's test between paired model predictions
-- absolute improvement
-- relative error reduction
-
-The MVP script `mvp_code/recompute_diagnosis_statistics.py` covers diagnosis-level statistics from saved predictions.
-
+This protocol documents the evaluation rules used in the manuscript. Raw prediction logs and complete item-level adjudication records are not included in the public method-level package, but can be provided to the editor under controlled review conditions if required.

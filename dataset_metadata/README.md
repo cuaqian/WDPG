@@ -1,10 +1,9 @@
-# Dataset metadata
+# Dataset Metadata
 
-This folder provides the review-facing dataset split and benchmark-label metadata used to verify the reported test-set metrics without redistributing raw image files.
+This folder provides the review-facing dataset split summary used to inspect the class distribution, source composition, and train/validation/test partition described in the manuscript.
 
-## Files
+## File
 
 - `class_source_split_summary.csv`: class-wise source composition and train/validation/test split counts.
-- `benchmark_labels_test.csv`: sample-level labels for the 601-image held-out test set, with anonymized image IDs, relative paths, split names, class labels, and source type.
 
-Raw image files are not included in this package because part of the dataset was collected from publicly accessible online sources and may involve redistribution restrictions. Controlled review copies can be provided upon editorial request under appropriate data-use conditions.
+Raw image files and sample-level image paths are not included in this public package because part of the dataset was collected from publicly accessible online sources and may involve redistribution restrictions. Controlled review copies can be provided upon editorial request under appropriate data-use conditions.

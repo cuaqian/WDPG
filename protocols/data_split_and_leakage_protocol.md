@@ -16,16 +16,15 @@ Healthy and other samples are included in the full-process test set to evaluate 
 
 ## Duplicate and near-duplicate checks
 
-Before submission, the following checks should be reported:
+The data preparation protocol includes:
 
 - exact file hash duplicate check
 - perceptual hash or image similarity check
 - manual review of suspicious near duplicates
-- confirmation that no identical or highly similar images cross train, validation, and test splits
+- exclusion of identical or highly similar images identified across train, validation, and test splits
 
 ## Public pretraining overlap
 
 Public web images may overlap with unknown pretraining corpora of large multimodal models. This risk cannot be fully audited for closed-source or large-scale models. The manuscript should state this limitation clearly.
 
 The same test images and evaluation rules are used for all compared models. This supports controlled relative comparison. Absolute accuracy should be interpreted with the pretraining-overlap limitation in mind.
-

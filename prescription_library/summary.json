@@ -1,7 +1,7 @@
 {
   "scope": "Reviewed prescription set for four actionable wheat pest and disease categories",
   "final_online_library": {
-    "file": "deep_all.json",
+    "item_level_file": "not included in the public method-level package",
     "retrieval_setting": "DeepResearch-enhanced evidence completion",
     "usable_prescription_entries": 35,
     "entries_by_threat": {

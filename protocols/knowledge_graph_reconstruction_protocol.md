@@ -23,9 +23,9 @@ To reconstruct the graph, a researcher needs:
 
 This package provides schema and Cypher templates. Full source documents may require separate sharing because some sources have redistribution restrictions.
 
-## Quality checks
+## Quality-Control Scope
 
-Recommended quality checks:
+The current package documents the graph schema, extraction prompt, normalization rules, and reconstruction protocol. More fine-grained independent graph evaluation can be conducted using:
 
 - entity extraction Precision, Recall, F1 on an expert-labeled sample
 - relation extraction Precision, Recall, F1 on an expert-labeled sample
@@ -33,4 +33,4 @@ Recommended quality checks:
 - prescription field completeness
 - provenance accuracy based on sampled source checks
 
-The manuscript can use downstream prescription performance as task evidence. Extraction metrics should be reported separately if they are added in revision.
+These graph-level metrics are listed as future audit items because the public method-level package does not include the complete source corpus or full Neo4j database dump.

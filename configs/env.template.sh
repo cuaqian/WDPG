@@ -20,6 +20,6 @@ export NEO4J_PASSWORD="<fill-local-password>"
 export NEO4J_DATABASE="wheatdiseases4"
 
 export PRESCRIPTION_LIBRARY_MODE=1
-export PRESCRIPTION_LIBRARY_PATH="$(pwd)/prescription_library/deep_all.json"
+export PRESCRIPTION_LIBRARY_PATH="<controlled-item-level-library-path-if-provided>"
 export CLINIC_MAX_PLANS=1
 export ENABLE_WRITEBACK=0

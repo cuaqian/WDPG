@@ -26,7 +26,7 @@ Candidate prompts were generated around four practical constraints:
 - confusion handling for visually similar classes
 - structured output format
 
-The review-facing MVP includes the final prompt, the candidate ranking summary, and BASE/BEST metrics. Full candidate prompt records are withheld from the MVP package and will be released with the maintained repository after acceptance/publication.
+The review-facing package includes the final selected prompt and documents the prompt-selection protocol. Intermediate candidate prompt records and saved metric files are not included in this public method-level package, but can be provided to the editor under controlled review conditions if required.
 
 ## Selection criterion
 

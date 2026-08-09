@@ -1,34 +1,27 @@
-# WDPG-AGENT review-facing MVP
+# WDPG-AGENT Review-Facing Reproducibility Materials
 
-This repository snapshot is intended for editor and reviewer inspection during manuscript revision.
+This repository provides the minimum review-facing materials needed to inspect the method design, configuration, prompt structure, knowledge-graph schema, prescription-library construction protocol, and evaluation protocol of WDPG-AGENT.
 
-It contains the minimum code and saved-result materials needed to inspect the WDPG-AGENT workflow and recompute the main saved-result metrics. It is designed for an author-controlled GitHub repository rather than journal Supplementary Materials, because code and run guides may need versioned updates during review.
+This package is intended for method-level reproducibility and configuration inspection. It does not include raw images, complete prediction outputs, full production code, complete Neo4j or Milvus databases, private deployment settings, credentials, complete item-level prescription records, or complete expert-review logs.
 
 ## Included
 
-- Final optimized visual diagnosis prompt.
-- Prompt search summary, selection record, and BASE/BEST metric files.
-- Reviewed prescription-library summary, field schema, and four representative examples.
-- De-identified expert review protocol and summary for the prescription library.
-- Direct/base prescription reference count summary.
-- Retrieval configuration and environment template without credentials.
-- Knowledge graph schema, extraction prompt template, normalization rules, and Cypher templates.
-- MVP single-image entry script.
-- Saved prediction files and metric files.
-- Dataset split metadata and 601-sample held-out test-set benchmark labels.
-- Metric recomputation script.
-- Data split, evaluation, expert review, and knowledge graph reconstruction protocols.
+- Optimized diagnostic prompt.
+- Retrieval and inference configuration.
+- Knowledge-graph schema, extraction prompt template, normalization rules, and Cypher templates.
+- Prescription-library summary and representative examples.
+- De-identified expert-review protocol and summary.
+- Dataset split summary.
+- Data split, evaluation, expert review, DSPy prompt optimization, and knowledge-graph reconstruction protocols.
 
-## Not included
+## Not Included
 
+- Raw image files with redistribution restrictions.
+- Complete prediction logs and metric files.
 - Full production agent repository.
-- Full DSPy prompt-search engineering code.
-- Complete machine-readable prescription library files, unless the editor requests a controlled review copy.
-- Full knowledge graph construction pipeline.
-- Complete Neo4j database dump.
-- Milvus index files.
+- Complete machine-readable prescription library.
+- Complete Neo4j database dump and Milvus index files.
 - API keys, passwords, private service URLs, and local deployment scripts.
-- Raw images with redistribution restrictions.
-- Expert personal signatures.
+- Expert personal signatures and complete item-level review records.
 
-The full maintained engineering repository will be released after acceptance/publication after removing credentials, private deployment settings, and restricted raw data.
+Raw images, complete item-level prescription records, full prediction logs, and complete deployment code can be made available to the editor upon reasonable request under appropriate data-use and review conditions.
