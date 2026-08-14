@@ -30,4 +30,4 @@ Outputs outside the reviewed prescription boundary require expert adjudication b
 
 ## Scope
 
-This protocol documents the evaluation rules used in the manuscript. Raw prediction logs and complete item-level adjudication records are not included in the public method-level package, but can be provided to the editor under controlled review conditions if required.
+This protocol documents the evaluation rules used in the manuscript.

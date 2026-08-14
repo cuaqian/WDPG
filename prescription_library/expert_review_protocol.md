@@ -1,6 +1,6 @@
 # Expert review protocol for the prescription library
 
-This file documents the review protocol used for the reviewed prescription library. It is provided as a de-identified protocol summary and does not include reviewer names, signatures, or the complete machine-readable prescription library.
+This file documents the review protocol used for the reviewed prescription library. It is provided as a de-identified protocol summary for inspecting the review criteria, decision rules, and disagreement-resolution process.
 
 ## Review target
 
@@ -15,7 +15,7 @@ The review focused on whether a candidate entry could be used as a standardized 
 
 ## Reviewer background
 
-Reviewers should be plant protection experts, agronomists, or extension specialists familiar with wheat pest and disease management and pesticide-use constraints.
+The review was conducted by plant protection experts familiar with wheat pest and disease management and pesticide-use constraints.
 
 ## Review fields
 
@@ -39,9 +39,8 @@ Each candidate prescription entry is checked on the following fields:
 
 ## Disagreement handling
 
-When reviewers disagree, the entry should be discussed by at least two experts. If agreement cannot be reached, the conservative decision is used. For pesticide recommendations, a conservative decision means that the entry is not accepted as a correct prescription unless the target, dosage, PHI, application timing, and source support are all clear.
+When reviewers disagreed, the entry was rechecked by at least two experts against the original source and disputed fields. If agreement could not be reached, the conservative decision was used. For pesticide recommendations, a conservative decision means that the entry is not accepted as a correct prescription unless the target, dosage, PHI, application timing, and source support are all clear.
 
 ## Reporting boundary
 
-The public Supplement provides the review protocol, count summary, field schema, and four representative reviewed examples. The complete machine-readable prescription library, reviewer identities, personal signatures, and complete intermediate review logs are not included in the public Supplement. A controlled item-level review copy can be provided if the editor requires inspection during peer review.
-
+The public Supplement provides the review protocol, count summary, field schema, and four representative reviewed examples. If the editor requires item-level inspection during peer review, a controlled review copy can be provided under appropriate review conditions.

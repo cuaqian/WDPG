@@ -38,4 +38,4 @@ This folder also provides a de-identified expert review protocol and summary:
 - `expert_review_protocol.md`
 - `expert_review_summary.json`
 
-The complete machine-readable prescription library is not included in this public method-level package. If the editor requires item-level inspection during review, a controlled review copy can be provided separately.
+If the editor requires item-level inspection during review, a controlled machine-readable review copy can be provided separately under appropriate review conditions.

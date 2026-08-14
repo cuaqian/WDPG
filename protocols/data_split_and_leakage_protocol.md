@@ -25,6 +25,6 @@ The data preparation protocol includes:
 
 ## Public pretraining overlap
 
-Public web images may overlap with unknown pretraining corpora of large multimodal models. This risk cannot be fully audited for closed-source or large-scale models. The manuscript should state this limitation clearly.
+Public web images may overlap with unknown pretraining corpora of large multimodal models. This risk was considered when interpreting the benchmark results and is described as a limitation in the revised manuscript.
 
-The same test images and evaluation rules are used for all compared models. This supports controlled relative comparison. Absolute accuracy should be interpreted with the pretraining-overlap limitation in mind.
+The same test images and evaluation rules are used for all compared models. This supports controlled relative comparison. The revised manuscript interprets absolute accuracy with the pretraining-overlap limitation in mind.

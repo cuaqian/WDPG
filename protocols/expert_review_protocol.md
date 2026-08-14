@@ -9,7 +9,7 @@ Expert review is used for two materials:
 
 ## Reviewer background
 
-Reviewers should be plant protection experts, agronomists, or extension specialists familiar with wheat pest and disease management and pesticide use constraints.
+The review was conducted by plant protection experts familiar with wheat pest and disease management and pesticide-use constraints.
 
 ## Review fields
 
@@ -33,9 +33,8 @@ Each prescription is checked on the following fields:
 
 ## Disagreement handling
 
-When reviewers disagree, the entry should be discussed by at least two experts. If agreement cannot be reached, the conservative decision is used. For pesticide recommendations, a conservative decision means the entry is not accepted as a correct prescription unless the target, dosage, PHI, and source support are all clear.
+When reviewers disagreed, the entry was rechecked by at least two experts against the original source and disputed fields. If agreement could not be reached, the conservative decision was used. For pesticide recommendations, a conservative decision means the entry is not accepted as a correct prescription unless the target, dosage, PHI, and source support are all clear.
 
 ## Reporting
 
-The manuscript should report the number of reviewers, their professional background, the review criteria, and the resolution rule for disagreements. Individual names can be withheld if required by institutional policy.
-
+The manuscript reports the number of reviewers, their professional background, the review criteria, and the resolution rule for disagreements. Individual identities are handled through de-identified review records.

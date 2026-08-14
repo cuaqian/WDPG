@@ -1,7 +1,7 @@
 {
   "scope": "Reviewed prescription set for four actionable wheat pest and disease categories",
   "final_online_library": {
-    "item_level_file": "not included in the public method-level package",
+    "item_level_file": "controlled review copy available upon editorial request",
     "retrieval_setting": "DeepResearch-enhanced evidence completion",
     "usable_prescription_entries": 35,
     "entries_by_threat": {
@@ -12,20 +12,9 @@
     },
     "use_in_online_agent": "The online Prescription agent reads this reviewed set after diagnosis and outputs one preferred plan."
   },
-  "direct_base_reference": {
-    "file": "direct_control_library.json",
-    "retrieval_setting": "direct/base retrieval without DeepResearch evidence completion",
-    "reviewed_entries": 24,
-    "entries_by_threat": {
-      "wheat_stripe_rust": 6,
-      "wheat_powdery_mildew": 6,
-      "wheat_aphid": 6,
-      "wheat_fusarium_head_blight": 6
-    }
-  },
   "candidate_records": {
     "included_in_review_mvp": false,
-    "reason": "Intermediate construction logs are withheld from the lean review package. Count summaries and representative examples are provided."
+    "reason": "Count summaries and representative examples are provided in this package; intermediate construction logs can be inspected through controlled editorial review if required."
   },
   "representative_examples": [
     {

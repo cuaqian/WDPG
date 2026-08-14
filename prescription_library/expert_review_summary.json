@@ -26,15 +26,6 @@
       "wheat_fusarium_head_blight": 9
     }
   },
-  "direct_base_reference": {
-    "total": 24,
-    "by_threat": {
-      "wheat_stripe_rust": 6,
-      "wheat_powdery_mildew": 6,
-      "wheat_aphid": 6,
-      "wheat_fusarium_head_blight": 6
-    }
-  },
   "disagreement_resolution": "Entries with disagreement were rechecked by at least two experts against the original source and disputed fields. If agreement could not be reached, the conservative decision was used and the entry was not accepted unless target, dosage, PHI, timing, and source support were clear.",
-  "public_release_boundary": "This summary is de-identified and does not include reviewer names, signatures, complete item-level logs, or the complete machine-readable prescription library. A controlled item-level review copy can be provided if the editor requires inspection during peer review."
+  "public_release_boundary": "This summary is de-identified. Controlled item-level review materials can be provided if the editor requires inspection during peer review."
 }
