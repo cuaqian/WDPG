@@ -4,7 +4,7 @@
 
 | File | Purpose |
 |---|---|
-| `README.md` | Scope and sharing boundary of the review-facing reproducibility materials. |
+| `README.md` | Scope and content summary of the public supporting materials. |
 | `FILE_MANIFEST.md` | File-level manifest. |
 
 ## Prompt
@@ -25,7 +25,7 @@
 | File | Purpose |
 |---|---|
 | `dataset_metadata/class_source_split_summary.csv` | Class-wise source composition and train/validation/test split counts. |
-| `dataset_metadata/README.md` | Dataset metadata boundary and raw-image sharing note. |
+| `dataset_metadata/README.md` | Dataset metadata scope and access note. |
 
 ## Knowledge-Graph Materials
 

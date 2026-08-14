@@ -33,4 +33,4 @@ The current package documents the graph schema, extraction prompt, normalization
 - prescription field completeness
 - provenance accuracy based on sampled source checks
 
-These graph-level metrics are listed as future audit items because the public method-level package does not include the complete source corpus or full Neo4j database dump.
+These graph-level metrics are listed as future audit items for deployments that rebuild the graph from the complete source corpus and local Neo4j database.

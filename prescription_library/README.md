@@ -38,4 +38,4 @@ This folder also provides a de-identified expert review protocol and summary:
 - `expert_review_protocol.md`
 - `expert_review_summary.json`
 
-If the editor requires item-level inspection during review, a controlled machine-readable review copy can be provided separately under appropriate review conditions.
+The repository provides the field schema, count summary, review protocol, and representative examples used to document the prescription-library construction process.

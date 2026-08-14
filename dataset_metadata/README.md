@@ -1,6 +1,6 @@
 # Dataset Metadata
 
-This folder provides the review-facing dataset split summary used to inspect the class distribution, source composition, and train/validation/test partition described in the manuscript.
+This folder provides the dataset split summary used to inspect the class distribution, source composition, and train/validation/test partition described in the manuscript.
 
 ## File
 

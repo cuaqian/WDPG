@@ -43,4 +43,4 @@ When reviewers disagreed, the entry was rechecked by at least two experts agains
 
 ## Reporting boundary
 
-The public Supplement provides the review protocol, count summary, field schema, and four representative reviewed examples. If the editor requires item-level inspection during peer review, a controlled review copy can be provided under appropriate review conditions.
+This repository provides the review protocol, count summary, field schema, and four representative reviewed examples.

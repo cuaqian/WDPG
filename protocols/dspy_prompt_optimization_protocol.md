@@ -26,7 +26,7 @@ Candidate prompts were generated around four practical constraints:
 - confusion handling for visually similar classes
 - structured output format
 
-The review-facing package includes the final selected prompt and documents the prompt-selection protocol. If the editor needs to inspect intermediate candidate prompt records or saved metric files, controlled review copies can be provided under appropriate review conditions.
+This repository includes the final selected prompt and documents the prompt-selection protocol.
 
 ## Selection criterion
 
